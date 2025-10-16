@@ -50,5 +50,3 @@ WORKDIR /home/rstudio/project
 # The `--chown` flag ensures the files are owned by the `rstudio` user.
 COPY --chown=rstudio:rstudio . /home/rstudio/project
 
-# Define the command to run your R script when the container starts.
-CMD ["Rscript", "your_script.R"]
